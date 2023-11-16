@@ -1,0 +1,12 @@
+{
+  "name": "node-starter",
+  "private": true,
+  "scripts": {
+    "test": "node --test dist/**/*.test.js",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  }
+}
